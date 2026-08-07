@@ -411,7 +411,7 @@
         "color": 7
       },
       "id": "cc000000-0000-0000-0000-0000000000f4",
-      "name": "Guardrail",
+      "name": "Guardrail note",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [

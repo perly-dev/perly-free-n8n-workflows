@@ -319,19 +319,19 @@
         "columns": {
           "mappingMode": "defineBelow",
           "value": {
-            "messageId": "={{ $json.messageId }}",
-            "receivedAt": "={{ $json.receivedAt }}",
-            "senderName": "={{ $json.senderName }}",
-            "senderEmail": "={{ $json.senderEmail }}",
-            "subject": "={{ $json.subject }}",
-            "category": "={{ $json.category }}",
-            "priority": "={{ $json.priority }}",
-            "sentiment": "={{ $json.sentiment }}",
-            "detectedLanguage": "={{ $json.detectedLanguage }}",
-            "summary": "={{ $json.summary }}",
-            "needsHumanReview": "={{ $json.needsHumanReview }}",
-            "suggestedReply": "={{ $json.suggestedReply }}",
-            "triageVersion": "={{ $json.triageVersion }}"
+            "messageId": "={{ $('Validate').item.json.messageId }}",
+            "receivedAt": "={{ $('Validate').item.json.receivedAt }}",
+            "senderName": "={{ $('Validate').item.json.senderName }}",
+            "senderEmail": "={{ $('Validate').item.json.senderEmail }}",
+            "subject": "={{ $('Validate').item.json.subject }}",
+            "category": "={{ $('Validate').item.json.category }}",
+            "priority": "={{ $('Validate').item.json.priority }}",
+            "sentiment": "={{ $('Validate').item.json.sentiment }}",
+            "detectedLanguage": "={{ $('Validate').item.json.detectedLanguage }}",
+            "summary": "={{ $('Validate').item.json.summary }}",
+            "needsHumanReview": "={{ $('Validate').item.json.needsHumanReview }}",
+            "suggestedReply": "={{ $('Validate').item.json.suggestedReply }}",
+            "triageVersion": "={{ $('Validate').item.json.triageVersion }}"
           },
           "matchingColumns": [
             "messageId"
